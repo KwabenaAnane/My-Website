@@ -1,18 +1,39 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MY Personal Website</title>
+    <link rel="stylesheet" href="styles/index.css" />
   </head>
   <body>
+    <!-- Header -->
     <header>
-      <h1 style="color: red;"><center>I'm Kwabena</center></h1>
+      <h1>
+        <p>I'm Kwabena</p>
+      </h1>
+
+      <!-- Navigation Bar -->
+
+      <nav class="nav-bar">
+        <a href="#about-me">About Me</a>
+        <a href="#education">Education</a>
+        <a href="#work-experience">Work Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact-me">Contact Me</a>
+      </nav>
     </header>
 
+    <!-- Main Section -->
     <main>
-      <div>
+      <div id="about-me">
         <h2>About Me</h2>
-        <img src="jerrypix.png" width="100rem" alt="my picture">
+        <img
+          src="images/jerrypix.png"
+          width="100rem"
+          title="my picture"
+          alt="picture of Kwabena"
+        />
         <p>
           I am a hardworking and dedicated individual with experience in
           customer service and administration
@@ -21,46 +42,45 @@
 
       <hr />
 
-      <div>
-        
+      <div id="education">
         <h2>Education</h2>
-            <ul>
-                <li>Sundsgården Folkhögskola - 2024</li>
-                <li>University of Ghana - 2012</li>
-            </ul>
-
+        <ul>
+          <li>Sundsgården Folkhögskola - 2024</li>
+          <li>University of Ghana - 2012</li>
+        </ul>
       </div>
-      
+
       <hr />
 
-      <div>
+      <div id="work-experience">
         <h2>Work Experience</h2>
-            <ul>
+        <section>
+          <h3>Customer Service Personnel - Scandic Hotel</h3>
 
-            <h3>Customer Service Personnel - Scandic Hotel</li></h3>
+          <p>Jan 2021 - Jan 2022</p>
+          <ul>
+            <li>Resolved customer complaints and issues</li>
+            <li>Answered customer inquiries via phone and email</li>
+            <li>Check in customers</li>
+          </ul>
+        </section>
 
-            <p>Jan 2021 - Jan 2022</p>
-                <ul>
-                    <li>Resolved customer complaints and issues</li>
-                     <li>Answered customer inquiries via phone and email</li>
-                    <li>Check in customers</li>
-                </ul>
+        <section>
+          <h3>Accounting Assistant</h3>
 
-            <h3>Accounting Assistant</h3>
+          <p>Jun 2020 - Dec 2020</p>
 
-            <p>Jun 2020 - Dec 2020</p>
-
-                <ul>
-                    <li>Payroll</li>
-                    <li>Accounting</li>
-                    <li>Administration</li>
-                </ul>
-            </ul>
+          <ul>
+            <li>Payroll</li>
+            <li>Accounting</li>
+            <li>Administration</li>
+          </ul>
+        </section>
       </div>
 
       <hr />
 
-      <div>
+      <div id="skills">
         <h2>Skills</h2>
 
         <ul>
@@ -70,7 +90,7 @@
         </ul>
       </div>
 
-      <hr/>
+      <hr />
 
       <div>
         <h2>Hobbies</h2>
@@ -81,10 +101,10 @@
         </ul>
       </div>
 
-      <hr>
+      <hr />
 
-      <div>
-        <address>
+      <div id="contact-me">
+        <address class="address">
           ✉️Oriongatan 131, 19555 Märsta <br />
           📧kwabenaanane@aol.com <br />
           📞0734940563 <br />
@@ -92,6 +112,9 @@
       </div>
     </main>
 
-    <footer><center> ©️ Kwabena Anane 2024 All rights reserved.</center></footer>
+    <!-- Footer -->
+    <footer>
+      <h5>©️ Kwabena Anane 2024 All rights reserved.</h5>
+    </footer>
   </body>
 </html>
