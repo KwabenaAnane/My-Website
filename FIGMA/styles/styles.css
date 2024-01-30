@@ -1,0 +1,113 @@
+.logo-title {
+  color: #0a1b32;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 160%; /* 48px */
+  letter-spacing: -0.6px;
+  margin-left: 80px;
+  margin-top: 37px;
+  text-decoration: none;
+}
+.logo-dot {
+  color: #824ff1;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 160%;
+  letter-spacing: -0.6px;
+}
+.main-title {
+  color: #1b0a42;
+  font-family: "Ramaraja", serif;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 76px; /* 105.556% */
+  letter-spacing: 1.44px;
+  margin-left: 200px;
+  margin-top: 200px;
+  max-width: 595px;
+  width: 100%;
+  max-height: 195px;
+  height: 100%;
+}
+.main-text {
+  color: #9a9a9a;
+  color: #824ff1;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  letter-spacing: 0.4px;
+  margin-top: 15px;
+  margin-left: 200px;
+  max-width: 590px;
+  width: 100%;
+}
+
+.main-btn {
+  background: #824ff1;
+  border-radius: 6px;
+  border: none;
+  height: 63.818px;
+  margin-left: 200px;
+  margin-top: 50px;
+  width: 152px;
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 200% */
+  letter-spacing: 0.32px;
+}
+
+img {
+  width: 450px;
+
+  margin-left: 90px;
+}
+
+section {
+  display: inline-block;
+}
+
+nav {
+  display: inline-block;
+}
+
+.nav-bar {
+  color: #1b0a42;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+  margin: 20px;
+  text-decoration: none;
+}
+
+.sign-up {
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+  border-radius: 6px;
+  background: #824ff1;
+  width: 120px;
+  height: 50px;
+  float: right;
+  text-decoration: none;
+  margin-right: 40px;
+}
